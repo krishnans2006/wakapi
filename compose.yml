@@ -3,7 +3,7 @@ services:
     build: .
     init: true
     ports:
-      - 3000:3000
+      - 3100:3000
     restart: unless-stopped
     environment:
       # See README.md and config.default.yml for all config options
