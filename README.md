@@ -99,7 +99,7 @@ Wakapi supports [Docker Secrets](https://docs.docker.com/compose/how-tos/use-sec
 ```bash
 export WAKAPI_PASSWORD_SALT=changeme
 export WAKAPI_DB_PASSWORD=changeme
-export WAKAPI_MAIL_SMTP_PASS=changeme
+export WAKAPI_SMTP_PASS=changeme
 
 docker compose up -d
 ```
